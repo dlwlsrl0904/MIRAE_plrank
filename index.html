@@ -41,6 +41,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   overflow-x: hidden;
+  word-break: keep-all;
 }
 
 /* ══════════════════════════════════════
@@ -83,8 +84,8 @@ h2.section-title {
 }
 
 .section-sub {
-  font-size: 17px; color: var(--txt2); max-width: 560px;
-  margin: 0 auto 60px; line-height: 1.7;
+  font-size: 17px; color: var(--txt2); max-width: 700px;
+  margin: 0 auto 60px; line-height: 1.7; word-break: keep-all;
 }
 
 .text-center { text-align: center; }
@@ -297,7 +298,7 @@ nav {
 }
 .feature-list li {
   font-size: 13px; color: var(--txt2);
-  display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;
+  display: flex; align-items: flex-start; gap: 8px; line-height: 1.5; word-break: keep-all;
 }
 .feature-list li::before { content: '→'; color: var(--blue2); flex-shrink: 0; font-weight: 700; }
 
@@ -332,7 +333,7 @@ nav {
 .rank-num.yellow { color: var(--ylw); }
 
 .rank-label { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
-.rank-desc  { font-size: 12px; color: var(--txt2); line-height: 1.5; }
+.rank-desc  { font-size: 12px; color: var(--txt2); line-height: 1.5; word-break: keep-all; }
 
 /* ══════════════════════════════════════
    스캔 플로우
@@ -369,7 +370,7 @@ nav {
   display: flex; align-items: center; justify-content: center;
 }
 .flow-step-title { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
-.flow-step-desc  { font-size: 12px; color: var(--txt2); line-height: 1.6; }
+.flow-step-desc  { font-size: 12px; color: var(--txt2); line-height: 1.6; word-break: keep-all; }
 
 /* ══════════════════════════════════════
    GIF 데모 섹션
@@ -392,7 +393,7 @@ nav {
 }
 .demo-visual img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .demo-title { font-size: 15px; font-weight: 700; margin-bottom: 5px; }
-.demo-desc  { font-size: 13px; color: var(--txt2); line-height: 1.6; }
+.demo-desc  { font-size: 13px; color: var(--txt2); line-height: 1.6; word-break: keep-all; }
 
 /* ══════════════════════════════════════
    안전성 섹션
@@ -419,7 +420,7 @@ nav {
   font-size: 20px; flex-shrink: 0;
 }
 .safety-title { font-size: 15px; font-weight: 700; margin-bottom: 5px; }
-.safety-desc  { font-size: 13px; color: var(--txt2); line-height: 1.65; }
+.safety-desc  { font-size: 13px; color: var(--txt2); line-height: 1.65; word-break: keep-all; }
 
 .safety-compare {
   margin-top: 40px;
@@ -468,7 +469,7 @@ nav {
   flex-shrink: 0;
 }
 .install-step-title { font-size: 15px; font-weight: 700; margin-bottom: 5px; }
-.install-step-desc  { font-size: 13px; color: var(--txt2); line-height: 1.65; }
+.install-step-desc  { font-size: 13px; color: var(--txt2); line-height: 1.65; word-break: keep-all; }
 .code-inline {
   font-family: var(--mono); font-size: 12px;
   background: rgba(59,130,246,.12); color: var(--blue2);
@@ -578,9 +579,7 @@ footer {
       올인원 솔루션
     </h1>
     <p class="hero-sub">
-      네이버 파워링크 순위를 지면별로 추적하고,<br>
-      목표 미달 시 광고주센터로 즉시 이동해 입찰 조정까지.<br>
-      대행사 담당자를 위한 Chrome 확장프로그램.
+      네이버 파워링크 순위를 지면별로 추적하고, 목표 미달 시<br>광고주센터로 즉시 이동해 입찰 조정까지.<br>순위 입찰에 스트레스를 받는 담당자를 위한 Chrome 확장프로그램.
     </p>
     <div class="hero-btns" style="margin-bottom:44px">
       <a href="plrank-unified.zip" download class="btn-primary">
@@ -633,7 +632,7 @@ footer {
     <div class="text-center fade-up">
       <div class="tag">✦ 핵심 기능</div>
       <h2 class="section-title">순위 확인부터 입찰까지<br>하나의 도구로</h2>
-      <p class="section-sub">반복적인 순위 확인 업무를 자동화하고 미달 시 즉시 대응까지 이어지는 워크플로우</p>
+      <p class="section-sub">반복적인 순위 확인 업무를 자동화하고,<br>미달 시 즉시 대응까지 이어지는 워크플로우</p>
     </div>
 
     <div class="features-grid">
@@ -812,7 +811,7 @@ footer {
     <div class="text-center fade-up">
       <div class="tag">✅ 안전성</div>
       <h2 class="section-title">네이버 이용약관<br>완전 준수</h2>
-      <p class="section-sub">크롤러가 아닙니다. 브라우저가 탭을 여는 것은 사용자가 직접 검색하는 것과 완전히 동일합니다.</p>
+      <p class="section-sub">크롤러가 아닙니다.<br>브라우저가 탭을 여는 것은 사용자가 직접 검색하는 것과 완전히 동일합니다.</p>
     </div>
 
     <div class="safety-grid">
